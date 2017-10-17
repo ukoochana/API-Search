@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+.serverless
+
+pids
+*.pid
+*.seed
+
+lib-cov
+coverage
+.nyc_output
+*.lcov
+
+**/.idea
+.DS_Store
+.tmp
+admin.env
+.env
+tmp
+mochawesome-report
