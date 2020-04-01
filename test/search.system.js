@@ -17,9 +17,7 @@ describe('ETSY - Search API', () => {
                     expect(res).toNotBe(null);
                     expect(err).toBe(null);
                     expect(res.statusCode).toBe(200);
-                    expect(res.body.results).toEqual(['TheFontsAndFloralsCo',
-                                                              'wandamariadesigns',
-                                                              'craftpatch']);
+                    expect(res.body.results).toEqual([ 'CraftersCorner', 'CraftyElephant', 'CraftingAddiction' ]);
                     const total_results_count = res.body.total_results_count;
                     console.error('count is: ', total_results_count);
                     console.log(res.body);
